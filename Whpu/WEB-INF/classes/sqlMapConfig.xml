@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <typeAliases>
+		<typeAlias  alias="User" type="com.whpu.pojo.User"/>
+		<typeAlias type="com.whpu.pojo.Work" alias="Work"/>		
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="com/whpu/dao/UserMapper.xml"/>
+		<mapper resource="com/whpu/dao/WorkMapper.xml"/>
+	</mappers>
+
+</configuration>
