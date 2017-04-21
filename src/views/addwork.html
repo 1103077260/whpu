@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>添加项目</title>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/addwork.js"></script>
+    <style type="text/css">
+        body{
+        	background: #87CEEB;
+        }
+    	div{
+    		padding-left: 10%;
+    		padding-top: 30px;
+    		padding-bottom: 30px;
+    	}
+        #ti{
+           padding-top:5px;
+           padding-left: 10px;
+           padding-right: 10px;
+           padding-bottom: 5px;
+
+        }
+        textarea{
+            width: 500px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+       <div id="uploadForm">
+        <h3>添加项目：</h3>
+        <div>
+            项目名：<input type="text" id="work_name">
+        </div>
+        <div>
+            图片：<input type="file" id="uploadFile">        
+        </div>
+        <div>
+            项目详情：<textarea id="work_info"></textarea>
+            <div>详情部分请按markdown语法填写！</div>
+        </div>
+        <div>
+            <input id="ti" type="submit" onclick="fsubmit()" name="提交">
+        </div>
+        </div>
+
+        <div>
+        <h3>删除项目：</h3>
+            <div>
+                 要删除的项目名：<input type="text" id="deleteworkname">
+                 <input type="submit" onclick="deletework()" value="删除">
+            </div>
+        </div>
+</body>
+</html>

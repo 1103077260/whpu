@@ -1,0 +1,24 @@
+.card{
+   margin-right:2%;
+  margin-left:2%;
+  width: 21%;
+  padding: 15px;
+  box-shadow: 0 2px 2px rgba(0,0,0,.06);
+  border-radius: 4px;
+  background: #fff; 
+  box-sizing:border-box;
+}
+.card:hover{
+   transform: scale(1.05);
+}
+.card-face{
+  width: 80px;
+  height: 80px;
+  border-radius: 4px;
+}
+
+
+.board-member{
+    background-color: #8BC34A;
+   background-image: url(../img/member.png);
+}

@@ -1,0 +1,148 @@
+.g5{color: #555;}
+.g7{color: #737373;}
+.g9{color: #999;}
+.red{color:#f44336;}
+.blue{color: #2196F3;}
+.bgw{background-color: #fff}
+.pta{position: absolute;}
+.l{float:left;}
+.r{float:right;}
+.b{font-weight:bold;}
+.n{font-weight:normal;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.tl{text-align:left;}
+.tj{text-align:justify;}
+.mt0{margin-top:0px;}
+.mt10{margin-top:10px;}
+.mt20{margin-top:20px;}
+.mb0{margin-bottom:0px;}
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px;}
+.mr5{margin-right: 5px;}
+.pt10{padding-top: 10px;}
+.pt20{padding-top: 20px;}
+.pb10{padding-bottom: 10px;}
+.pb20{padding-bottom: 20px;}
+ 
+.vm{vertical-align:middle;}
+.vtb{vertical-align:text-bottom;}
+.vt{vertical-align:top;}
+
+.w50{width: 50%;}
+.w100{width: 100%;}
+
+.fix:after{display:table; content:''; clear:both;}
+
+.trans{
+    transition:all .3s;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+	-webkit-transition:all .3s;
+}
+.cell{display:table-cell; width:2000px;}
+
+.auto{margin-left:auto; margin-right:auto;}
+
+.ell{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+body{
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #333;
+    font-family: SourceSansPro, 'Helvetica Neue',Helvetica,Arial,"Microsoft YaHei";
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+input,textarea,select,button {
+    font-size: 100%;
+    font-family: inherit;
+}
+h4,h5,h6{
+    font-size:1em;
+}
+
+ul,ol{
+    margin:0;
+    padding-left:0;
+    list-style-type:none;
+}
+
+img{
+    border:0;
+}
+
+a{
+    text-decoration:none;
+    cursor: pointer;
+    color: inherit;
+}
+h1{
+    font-size: 26px;
+}
+
+hr{
+    border-width: 0;
+    border-bottom: 1px solid #eee;
+}
+blockquote{
+    padding-left: 1.2em;
+    border-left: 4px solid #eee;
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url('./fonts/Source Sans Pro.woff2') format('woff2');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url('./fonts/Source Sans Pro Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+}
+ 
+.container{
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 960px;
+}
+
+.warp{
+    padding-bottom: 150px;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: all .5s !important;
+}
+.fade-enter, .fade-leave-active {
+    opacity: 0;
+}
+
+.list-enter-active, .list-leave-active {
+  transition: all .5s !important;
+}
+.list-enter, .list-leave-active {
+  opacity: 0;
+  transform: translateY(15px);
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+    min-height: 20px;
+    background-clip: content-box;
+    border-radius: 999px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+body{
+       background: #f4f5f7;
+}

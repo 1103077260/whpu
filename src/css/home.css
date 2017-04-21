@@ -1,0 +1,20 @@
+
+
+.jumbotron{
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #00BCD4;
+  background-image: url(../img/title.png);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.jumbotron-content{
+  position: absolute;
+  top: 15%;
+  color: #fff;
+}
+.jumbotron-h1{
+  font-size: 50px;
+}

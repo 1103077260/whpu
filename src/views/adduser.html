@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>添加成员</title>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/adduser.js"></script>
+    <style type="text/css">
+        body{
+        	background: #87CEEB;
+        }
+    	div{
+    		padding-left: 10%;
+    		padding-top: 30px;
+    		padding-bottom: 30px;
+    	}
+        #ti{
+           padding-top:5px;
+           padding-left: 10px;
+           padding-right: 10px;
+           padding-bottom: 5px;
+
+        }
+        textarea{
+            width: 500px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+       <div id="uploadForm">
+        <h3>添加成员：</h3>
+        <div>
+            姓名：<input type="text" id="user_name">
+        </div>
+        <div>
+            图片：<input type="file" id="uploadFile">        
+        </div>
+        <div>
+            加入时间：<input type="month" id="user_time">
+        </div>
+        <div>
+            出生日期：<input type="date" id="user_age">
+        </div>
+        <div>
+            详情：<textarea id="user_info"> </textarea>
+            <div>详情部分请按markdown语法填写！</div>
+        </div>
+        <div>
+            <input id="ti" type="submit" onclick="fsubmit()" name="提交">
+        </div>
+        </div>
+
+        <div>
+        <h3>删除成员：</h3>
+            <div>
+                 要删除的成员名：<input type="text" id="deleteusername">
+                 <input type="submit" onclick="deleteuser()" value="删除">
+            </div>
+        </div>
+</body>
+</html>
